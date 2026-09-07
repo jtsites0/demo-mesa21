@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Projeto demonstrativo de site para restaurante criado pela JT Sites." />
+  <meta name="theme-color" content="#f3e5cf" />
+  <title>Mesa 21 — Projeto demonstrativo</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <div class="demo-bar">PROJETO DEMONSTRATIVO • RESTAURANTE FICTÍCIO • JT SITES</div>
+  <header class="header">
+    <a class="brand" href="#inicio">MESA<span>21</span></a>
+    <nav id="nav">
+      <a href="#conceito">Conceito</a>
+      <a href="#menu">Menu</a>
+      <a href="#experiencia">Experiência</a>
+      <button type="button" class="reserve-small" data-reserve>Simular reserva</button>
+    </nav>
+    <button class="menu-toggle" type="button" aria-label="Abrir menu" aria-expanded="false"><i></i><i></i></button>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-topline"><span>COZINHA AUTORAL • CONCEITO FICTÍCIO</span><span>JANTAR / ENCONTRO / EXPERIÊNCIA</span></div>
+      <div class="hero-grid">
+        <div class="hero-copy">
+          <h1>Comida que vira <em>assunto.</em></h1>
+          <p>Uma direção digital para restaurantes que precisam abrir o apetite, apresentar personalidade e transformar visita em reserva.</p>
+          <div class="hero-actions"><button type="button" class="button dark" data-reserve>Simular reserva</button><a class="button outline" href="#menu">Ver menu conceito</a></div>
+        </div>
+        <div class="plate" aria-hidden="true">
+          <div class="plate-ring ring-a"></div><div class="plate-ring ring-b"></div><div class="plate-center"><span>21</span><b>MESA</b></div>
+          <i class="herb h1"></i><i class="herb h2"></i><i class="herb h3"></i><i class="dot d1"></i><i class="dot d2"></i><i class="dot d3"></i>
+        </div>
+      </div>
+      <div class="scroll-note">ROLE PARA PROVAR O CONCEITO ↓</div>
+    </section>
+
+    <section class="ticker"><div>SABOR • TEXTURA • ENCONTRO • SABOR • TEXTURA • ENCONTRO • SABOR • TEXTURA • ENCONTRO •</div></section>
+
+    <section class="concept section" id="conceito">
+      <div class="concept-title"><span>01</span><p>CONCEITO</p><h2>Um site com<br>cara de mesa cheia.</h2></div>
+      <div class="concept-copy"><p>Restaurante vende muito antes do primeiro prato: vende clima, expectativa e vontade de estar ali.</p><p>Esta demo mistura tipografia expressiva, blocos editoriais e microinterações para criar uma presença digital quente e memorável.</p><div class="chips"><span>mobile first</span><span>menu claro</span><span>reserva evidente</span></div></div>
+    </section>
+
+    <section class="menu-section" id="menu">
+      <div class="menu-heading"><div><span>02 / MENU DEMONSTRATIVO</span><h2>POUCOS ITENS.<br>MUITA PRESENÇA.</h2></div><p>Pratos e valores são totalmente fictícios e servem apenas para demonstrar a apresentação de um cardápio digital.</p></div>
+      <div class="menu-grid">
+        <article class="dish terracotta"><span>ENTRADA</span><div class="dish-art art-one"></div><h3>Milho tostado<br>+ creme cítrico</h3><p>Textura, acidez e ervas frescas.</p><b>R$ 34*</b></article>
+        <article class="dish cream"><span>PRINCIPAL</span><div class="dish-art art-two"></div><h3>Massa fresca<br>+ manteiga de ervas</h3><p>Massa artesanal, alho assado e folhas.</p><b>R$ 58*</b></article>
+        <article class="dish wine"><span>SOBREMESA</span><div class="dish-art art-three"></div><h3>Chocolate<br>+ flor de sal</h3><p>Cacau intenso, crocante e creme leve.</p><b>R$ 29*</b></article>
+      </div>
+      <p class="fine">*Conteúdo e preços fictícios para fins de portfólio.</p>
+    </section>
+
+    <section class="experience" id="experiencia">
+      <div class="experience-art"><div class="arch"><span>21</span></div><div class="label l1">LUZ BAIXA</div><div class="label l2">MESA LONGA</div><div class="label l3">CONVERSA ALTA</div></div>
+      <div class="experience-copy"><span>03 / EXPERIÊNCIA</span><h2>O digital prepara o clima.</h2><p>Uma boa página gastronômica ajuda o visitante a imaginar a experiência — sem depender de textos longos ou informação escondida.</p><ul><li><b>01</b>Menu fácil de ler</li><li><b>02</b>Identidade visual própria</li><li><b>03</b>Reserva a poucos toques</li></ul></div>
+    </section>
+
+    <section class="manifesto section">
+      <p class="small-label">04 / DIREÇÃO CRIATIVA</p>
+      <h2>QUENTE.<br><span>GRÁFICO.</span><br>APETITOSO.</h2>
+      <div class="palette"><i></i><i></i><i></i><i></i></div>
+    </section>
+
+    <section class="reservation-cta">
+      <div><span>DEMONSTRAÇÃO DE CONVERSÃO</span><h2>A mesa está pronta.<br>Falta o clique.</h2></div>
+      <button type="button" class="reserve-big" data-reserve><span>SIMULAR</span><b>RESERVA</b><i>↗</i></button>
+    </section>
+  </main>
+
+  <footer>
+    <a class="brand" href="#inicio">MESA<span>21</span></a>
+    <p>Marca, cardápio e valores fictícios para demonstração.</p>
+    <a href="https://jtsites0.github.io/demo-site/" target="_blank" rel="noopener noreferrer">Projeto por JT Sites ↗</a>
+  </footer>
+
+  <dialog class="reserve-dialog" id="reserve-dialog">
+    <button class="close" type="button" aria-label="Fechar">×</button>
+    <span>RESERVA • DEMONSTRAÇÃO</span>
+    <h2>Escolha uma mesa</h2>
+    <div class="fake-fields"><button type="button"><small>PESSOAS</small><b>2 pessoas</b></button><button type="button"><small>DATA</small><b>Próxima sexta</b></button><button type="button"><small>HORÁRIO</small><b>20:30</b></button></div>
+    <button type="button" class="confirm-demo">Continuar demonstração</button>
+    <p>Nenhuma reserva real será criada e nenhum dado será enviado.</p>
+  </dialog>
+
+  <script src="./script.js" defer></script>
+</body>
+</html>
